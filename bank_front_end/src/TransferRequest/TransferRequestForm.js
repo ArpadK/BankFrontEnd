@@ -11,9 +11,7 @@ class TransferRequestForm extends Component {
             toRekeningNummer: '',
             amount: ''
         }
-
-        
-    }
+    } 
 
     changeHandler = (e) => {
         this.setState({[e.target.name]: e.target.value})
